@@ -12,13 +12,15 @@
         <div class="content">
             <p>Enter the bill amount and tip percentage to calculate the total.</p>
             <p>Bill amount:</p>
-            <input>
+            <input type="number" id="bill"/>
             <p>Tip percentage</p>
-            <input><br>
-            <button>Calculate</button>
-            <p>Total:</p>
+            <input type="number" id="tip"/><br>
+            <button onClick="calculate()">Calculate</button>
+            <p id="total">Total: </p>
         </div>
         
     </div>
+    <script src="index.js"></script>
 </body>
+
 </html>
