@@ -1,0 +1,30 @@
+body{
+    background-color:hsl(40, 45%, 89%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:90vh
+}
+
+.middle{
+    width:42%;
+    background-color:white;
+    height:350px;
+    border-radius:20px;
+    box-shadow:5px 5px 5px 5px rgb(211, 208, 208)
+}
+.content{
+    margin-left:50px;
+}
+button{
+    margin-top:20px;
+    width:80%
+}
+h1{
+   text-align:center 
+}
+input{
+    width:90%;
+    border-radius:1px;
+    height:30px;
+}
